@@ -1,7 +1,7 @@
-**In progress**
 # pyCors
 A Python Flask-based proxy adding Access-Control-Allow-Origin to all responses.
 A fork of cors-proxy with the added feature of being deployable via docker, allowing you to define Origins via environment variables, and allowing you to set Access-Control-Allow-Credentials to true via environment variables (default remains false).
+Can be found on [DockerHub](https://hub.docker.com/r/heyitsjono/pycors/).
 
 ## Instructions
 Can be run from either `docker` or `docker-compose`.
